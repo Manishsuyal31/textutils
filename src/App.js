@@ -29,6 +29,8 @@ function App() {
       <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} />
         <Routes>
           <Route path='/' element={<Textform heading="ENTER THE TEXT BELOW TO ANALYZE" mode={mode} />}/>
+          <Route path='/textutils' element={<Textform heading="ENTER THE TEXT BELOW TO ANALYZE" mode={mode} />}/>
+          <Route path='/textutils/' element={<Textform heading="ENTER THE TEXT BELOW TO ANALYZE" mode={mode} />}/>
           <Route path='/About' element={<About mode={mode} />}/>
         </Routes>
       </Router>
